@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* html{
+    font-size: 65.5%;
+} */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+
+.menuPrincipal{
+    background-color: rgb(240, 214, 183);
+}
+.menuPrincipal ul{
+    list-style-type: none;
+    display: inline-block;
+}
+.menuPrincipal ul li{
+    padding: 20px 20px;
+    display: inline-block;
+}
+
+.titulo{
+    background-color: beige;
+    color: rgb(114, 0, 0);
+    text-align: center;
+}
+.titulo__subtitulo{
+    color: rgb(118, 171, 221);
+    text-align: center;
+}
+
+.subtitulo{
+    background-color: rgb(240, 214, 183);
+    color: rgb(114, 0, 0);
+    border: solid 2px #151515;
+    text-align: center;
+}
+
+.atajo{
+    background-color: beige;
+    display: block;
+}
+
+.imagenLogo{
+    display: inline-block;
+    width: 75px;
+    height: 50px;
+}
+
+.nosotros{
+    background-color:beige;
+    text-align: center;
+}
+
+.nosotros__parrafo{
+    background-color: beige;
+}
+
+.table img{
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+    background-color: beige;
+}
+
+.table2{
+    background-color: beige;
+}
+
+#table2{
+    background-color: beige;
+}
+
+.listas{
+    color: red !important;
+    list-style-type: none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    line-height: 2;
+    text-decoration: none;
+    border: solid 1px #151515; 
+    background-color: beige;
+    background-repeat: repeat-x;
+    background-position: 45% 55%;
+    background-size: contain;
+}
+
+
+.galeria{
+    background-color: beige;
+}
+.fotos img{
+    width: 300px;/* ancho */
+    height: 200px;/* alto */
+    margin: 20px 130px;
+    border: solid 5px #ffffff;
+/*     color: #ffffff; */
+}
+.fotos{
+    position: relative;
+}
+.fotoRebelde{
+    position: relative; /* position: absolute; */
+/*     top: 50px;
+    left: 100px; */
+}
+
+.formulario{
+    background-color: beige;
+    display: block;
+}
+.formulario label textarea input{
+    display: inline-block;
+}
+
+.parallax{
+    background-image: url("../MULTIMEDIA/fondoparallax.jpg");
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+/*     background-repeat: repeat-x; */
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.parallax__titulo{
+    color: beige;
+    text-align: center;
+    line-height: 750px;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parrafo{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 100px ;
+    font-size: 25px;
+    background-color: beige;
+    color: rgb(114, 0, 0);
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+.redes{
+    position: fixed;
+    right: 0;
+    bottom: 50%;
+}
+.redes a img{
+    width: 50px;
+    display: block;
+}
+
+.whastapp{
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+}
+.whatsappImg{
+    width: 50px;
+}
+
+
+
+
+
